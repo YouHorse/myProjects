@@ -9,4 +9,6 @@ function check() {
     } else {
         alert("This word is not Palindrome")
     }
+
+    input.value = ""
 }
