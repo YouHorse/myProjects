@@ -4,9 +4,9 @@ function check() {
     const value = input.value
     const palindrome = value.split("").reverse().join("");
 
-    if(value === palindrome)
-        alert("The word is a Palindrome")
-    else{
-        alert("No it is not")
+    if (value === palindrome) {
+        alert("This word is Palindrome")
+    } else {
+        alert("This word is not Palindrome")
     }
 }
